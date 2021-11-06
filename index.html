@@ -15,7 +15,7 @@
        }
 
        .grad {
-        background-image: linear-gradient(to bottom right, red, yellow);
+        background-image: linear-gradient(to right, black, red, white);
         }
     </style>
     <title>Nav-bar</title>
@@ -33,6 +33,17 @@
                     <li class="nav-item "> 
                     <a class="nav-link" href="#">Products</a>
                 </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMoreList" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      More
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMoreList">
+                      <li><a class="dropdown-item" href="#">Contact us</a></li>
+                      <li><a class="dropdown-item" href="#">Images</a></li>
+                      <li><a class="dropdown-item" href="#">Client's opinion</a></li>
+                    </ul>
+                  </li>
+          
             </ul>
         </div>
         <div class="col">
@@ -51,7 +62,5 @@
     </div>
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-
-   
   </body>
 </html>
